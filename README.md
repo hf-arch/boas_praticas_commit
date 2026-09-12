@@ -1,17 +1,17 @@
-Convenção de Commits e Branches
+## Convenção de Commits e Branches
 
 Este repositório foi desenvolvido como parte das atividades realizadas durante a aula de CI/CD (Integração Contínua e Entrega Contínua) do curso de Desenvolvimento de Software.
 
 O objetivo deste projeto é documentar e aplicar boas práticas relacionadas à utilização de commits e branches, estabelecendo uma convenção que facilite a organização, manutenção e compreensão do histórico de alterações em um projeto de software.
 
-📚 Referência
+### 📚 Referência
 
 A estrutura e parte das convenções apresentadas neste repositório foram desenvolvidas com base e inspiração no repositório [Padrões de Commits](https://github.com/iuricode/padroes-de-commits)
 , de Iuri Silva (@iuricode).
 
 O conteúdo foi utilizado como referência para o estudo e adaptação das convenções de commits e boas práticas de versionamento abordadas neste projeto. O repositório original também utiliza como referência os conceitos de Conventional Commits.
 
-📌 Objetivo
+### 📌 Objetivo
 
 A padronização tem como principais objetivos:
 
@@ -20,7 +20,7 @@ Facilitar a identificação das alterações realizadas.
 Melhorar a comunicação entre os integrantes da equipe.
 Facilitar a criação de changelogs e releases.
 Padronizar a criação e utilização de branches.
-🌿 Convenção de Branches
+### 🌿 Convenção de Branches
 
 As branches devem seguir um padrão que permita identificar rapidamente o tipo e o objetivo da alteração.
 
@@ -86,7 +86,7 @@ style: ajusta formatação do código
 perf: otimiza consulta de usuários
 ci: adiciona pipeline de testes
 
-📏 Regras para mensagens de Commit
+#### 📏 Regras para mensagens de Commit
 
 As mensagens devem:
 
@@ -95,7 +95,7 @@ Utilizar o verbo no presente.
 Começar com o tipo da alteração.
 Evitar mensagens genéricas como update, fix, changes ou teste.
 Descrever o que foi alterado, e não necessariamente como foi implementado.
-❌ Evite
+#### ❌ Evite
 update
 fix
 mudanças
@@ -103,12 +103,12 @@ alterações
 teste
 coisas novas
 
-✅ Prefira
+#### ✅ Prefira
 feat: adiciona recuperação de senha
 fix: corrige erro na validação do e-mail
 docs: adiciona instruções de instalação
 
-🔄 Fluxo de Trabalho
+#### 🔄 Fluxo de Trabalho
 
 Um fluxo básico pode seguir estas etapas:
 
@@ -136,7 +136,7 @@ git push -u origin feature/nova-funcionalidade
 
 Após o push, deve ser criado um Pull Request para revisão e posterior merge na branch principal.
 
-📚 Exemplo Completo
+#### 📚 Exemplo Completo
 
 Para implementar uma nova funcionalidade de autenticação:
 
@@ -154,7 +154,7 @@ feature/autenticacao-usuario
         ↓
       main
 
-🎯 Resumo
+### 🎯 Resumo
 
 A regra principal é:
 
