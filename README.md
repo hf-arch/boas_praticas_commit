@@ -26,7 +26,7 @@ As branches devem seguir um padrão que permita identificar rapidamente o tipo e
 
 #### / Estrutura
 
-#### "tipo": "descrição"
+#### "tipo"/"descrição"
 
 
 ##### Exemplos:
