@@ -24,67 +24,63 @@ Padronizar a criação e utilização de branches.
 
 As branches devem seguir um padrão que permita identificar rapidamente o tipo e o objetivo da alteração.
 
-Estrutura
-<tipo>/<descricao>
+#### / Estrutura
 
-Tipos de Branch
-Tipo	Utilização
-feature	Desenvolvimento de uma nova funcionalidade
-fix	Correção de um problema
-hotfix	Correção urgente em produção
-refactor	Refatoração de código sem alteração de comportamento
-docs	Alterações exclusivamente na documentação
-test	Criação ou alteração de testes
-chore	Tarefas de manutenção ou configuração
-Exemplos
+#### "tipo": "descrição"
+
+
+##### Exemplos:
+
 feature/autenticacao-usuario
+
 fix/correcao-login
+
 hotfix/erro-pagamento
+
 refactor/servico-usuarios
+
 docs/atualiza-readme
+
 test/teste-autenticacao
+
 chore/atualiza-dependencias
 
-Boas práticas
+
+#### Boas práticas
+
 Utilize nomes curtos e descritivos.
 Prefira letras minúsculas.
 Utilize - para separar palavras.
 Evite caracteres especiais e espaços.
 A branch deve representar claramente o objetivo da alteração.
-📝 Convenção de Commits
+
+### 📝 Convenção de Commits
 
 Os commits devem seguir uma estrutura padronizada para facilitar a leitura do histórico.
 
-Estrutura
-<tipo>: <descrição>
+#### / Estrutura
+#### "tipo": "descrição"
 
-
-Exemplo:
+##### Exemplos:
 
 feat: adiciona autenticação de usuários
 
-Tipos de Commit
-Tipo	Utilização
-feat	Adição de uma nova funcionalidade
-fix	Correção de um problema
-refactor	Refatoração do código
-docs	Alteração na documentação
-test	Adição ou alteração de testes
-chore	Tarefas de manutenção
-style	Alterações de formatação ou estilo
-perf	Melhoria de performance
-build	Alterações relacionadas ao build
-ci	Alterações relacionadas à integração contínua
-Exemplos
-feat: adiciona autenticação de usuários
 fix: corrige validação do formulário
+
 docs: atualiza documentação da API
+
 test: adiciona testes para autenticação
+
 refactor: simplifica serviço de usuários
+
 chore: atualiza dependências
+
 style: ajusta formatação do código
+
 perf: otimiza consulta de usuários
+
 ci: adiciona pipeline de testes
+
 
 #### 📏 Regras para mensagens de Commit
 
