@@ -136,19 +136,24 @@ Após o push, deve ser criado um Pull Request para revisão e posterior merge na
 
 Para implementar uma nova funcionalidade de autenticação:
 
-Branch
+Branch":
+
 feature/autenticacao-usuario
 
 Commits
+
 feat: adiciona estrutura de autenticação
+
 feat: implementa login de usuários
+
 test: adiciona testes para autenticação
+
 docs: documenta fluxo de autenticação
 
-Pull Request
+
+Pull Request: 
 feature/autenticacao-usuario
-        ↓
-      main
+
 
 ### 🎯 Resumo
 
@@ -162,10 +167,15 @@ Branch:
 feature/autenticacao-usuario
 
 Commits:
+
 feat: adiciona estrutura de autenticação
+
 feat: implementa login de usuários
+
 test: adiciona testes de autenticação
+
 docs: documenta autenticação
+
 
 
 Seguindo essas convenções, o histórico do projeto se torna mais previsível, organizado e fácil de entender.
